@@ -1,0 +1,970 @@
+/*Please Note: This site is  responsive.
+Responsive Styles are only for some selective sizes only.* 
+                      Thank You*/ 
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */
+}
+
+ body {
+   margin: 0;
+ }
+
+ .yellowborder {
+  border-top: 25px solid rgb(254, 224, 54);
+  border-bottom: 25px solid rgb(254, 224, 54);
+  border-right: 15px solid rgb(254, 224, 54);
+  border-left: 15px solid rgb(254, 224, 54);
+  background-color: rgb(254, 224, 54);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  .headdiv {
+  border-radius: 15px;
+  background: url('./Images/homepic.jpg') no-repeat center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  height: 85vh;
+  position: relative;
+}
+
+ h1 {
+   font-family: "MuseoModerno", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 900;
+   font-style: bold;
+   padding-left: 40px;
+   line-height: 1.1;
+   margin-bottom: 0px;
+ }
+
+ .underline {
+  width: 90%;
+  max-width: 1400px;
+  height: 3px;
+  margin-top: 5px;
+  margin-left: 40px;
+  background-color: black;
+}
+
+ .logoline {
+  width: 32%;
+  height: 50vh;
+  font-size: 37px;
+  color: rgb(44, 44, 44);
+  position: relative;
+  top: 25%;
+}
+
+ /* .headbox {
+   /* border: 5px solid red; */
+   /* background-color: rgb(254, 224, 54);
+   width: 250px;
+   height: 250px;
+   align-self: center;
+   transform: rotate(55deg);
+   margin: -340px;
+   margin-left: 300px;
+   margin-bottom: 0px;
+   /* border: 5px solid green; */
+ /* } */
+
+ /* .quote {
+   /* border: 5px solid red; */
+   /* background-color: aqua; */
+   /* height: 100;
+   width: 280px;
+   align-self: flex-end;
+   position: relative;
+   right: 280px;
+   top: 70px; */
+   /* border: 5px solid black; */
+   /* font-weight: 600;
+   color: rgb(44, 44, 44);
+   font-family: "Open Sans", sans-serif;
+   line-height: 1.5; */
+   /* border: 5px solid red; */
+ 
+
+ /* .getq:hover {
+   background-color: rgb(254, 224, 54);
+   color: black;
+ } */ 
+
+ .getq {
+   border-radius: 0%;
+   /* border: 2px solid red; */
+   position: relative;
+   left: 7px;
+   background-color: rgb(44, 44, 44);
+   color: white;
+   width: 13em;
+   font-size: larger;
+   height: 2em;
+   border-radius: 22px 22px;
+ }
+
+ .whyflex {
+   display: flex;
+   color: rgb(44, 44, 44);
+   padding-left: 1.1%;
+ }
+
+ .whyflex h1 {
+   font-size: 3em;
+   font-weight: 600;
+ }
+
+ .whybox {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   gap: 20px;
+   /* border: 2px solid black; */
+   padding: 5%;
+ }
+
+ .div1 {
+   /* border: 2px solid saddlebrown; */
+   background-color: rgb(254, 224, 54);
+   border-radius: 10%;
+   width: 300px;
+   height: 300px;
+ }
+
+ .div1 p {
+   font-size: 23px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 500;
+   color: rgb(51, 50, 44);
+   padding-left: 10%;
+   font-weight: 650;
+   /* border: 2px solid black; */
+ }
+
+ .icon {
+   /* border: 2px solid rebeccapurple; */
+   position: relative;
+   left: 75%;
+   bottom: 23%;
+   transform: rotate(15deg);
+ }
+
+ #info {
+   font-size: 16px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   /* border: 2px solid rgb(232, 9, 9); */
+   height: 100px;
+   line-height: 1.5;
+
+ }
+
+ .div2 {
+   /* border: 2px solid rgb(23, 22, 22); */
+   background-color: rgb(255, 143, 205);
+   border-radius: 10%;
+   width: 300px;
+   height: 300px;
+ }
+
+ .div2 p {
+   font-size: 23px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 500;
+   color: rgb(51, 50, 44);
+   padding-left: 10%;
+   font-weight: 650;
+   /* border: 2px solid black; */
+ }
+
+ #info2 {
+   color: rgb(51, 50, 44);
+   font-size: 16px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   /* border: 2px solid rgb(232, 9, 9); */
+   height: 100px;
+   line-height: 1.5;
+   padding-left: 10px;
+ }
+
+ .div3 {
+   /* border: 2px solid rgb(13, 13, 12); */
+
+   background-color: rgb(115, 197, 98);
+   border-radius: 10%;
+   width: 300px;
+   height: 300px;
+ }
+
+ .div3 p {
+   font-size: 23px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 500;
+   color: rgb(51, 50, 44);
+   padding-left: 10%;
+   font-weight: 650;
+   /* border: 2px solid black; */
+ }
+
+ .lifediv {
+   display: flex;
+   /* border: 5px solid gray; */
+   justify-content: center;
+ }
+
+ .lifediv p {
+   /* border: 2px solid red; */
+   width: 40%;
+   font-size: 16px;
+   font-family: "Open Sans", sans-serif;
+   font-weight: 600;
+   line-height: 1.5;
+   color: rgb(44, 44, 44)
+ }
+
+ .button2 {
+   border-radius: 0%;
+   /* border: 2px solid red; */
+   position: relative;
+   left: 7px;
+   top: 30px;
+   background-color: rgb(44, 44, 44);
+   color: white;
+   width: 13em;
+   font-size: larger;
+   height: 2em;
+   border-radius: 22px 22px;
+   margin-left: 6%;
+ }
+
+ .button2:hover {
+   background-color: rgb(254, 224, 54);
+   color: black;
+   cursor:pointer;
+   border-style: none;
+ }
+
+ .fampic {
+   /* border: 2px solid black; */
+   box-sizing: border-box;
+ }
+
+ .fampic img {
+   width: 85%;
+   padding-left: 7%;
+   background-attachment: fixed;
+ }
+
+ .cancover {
+   display: flex;
+   /* border: 5px solid red; */
+   justify-content: space-evenly;
+ }
+
+ #cancoverh1 h1 {
+   /* border: 2px solid green; */
+   font-size: 3em;
+   font-weight: 600;
+   color: rgb(44, 44, 44);
+
+ }
+
+ .cancoverp {
+   /* border: 2px solid green; */
+   font-family: sans-serif;
+   font-size: 1.8em;
+   font-weight: 500;
+   color: (44, 44, 44)
+ }
+
+ .orangecard{
+  display: flex;
+  /* border: 5px solid red; */
+  justify-content: space-evenly;
+ }
+
+ .orange{
+  /* border: 2px solid black; */
+  width: 300px;
+  height: 330px;
+  background-color:rgb(255,152,63);
+  border-radius: 22px 22px;  
+ }
+
+ .orange p{
+  font-size: larger;
+  font-weight: 650;
+  /* border: 2px solid purple; */
+  font-family: "Open Sans", sans-serif;
+  padding-left: 5%;
+  color: rgb(51, 50, 44);
+ }
+ .orange img{
+  position: relative;
+  left: 28%;
+  top:8%;
+  /* border: 2px solid red; */
+ }
+ #orangep{
+  /* border: 4px solid yellow; */
+  position: relative;
+  top:15%;
+  font-size: 1em;
+  font-weight:500;
+  font-family: "Open Sans", sans-serif;
+
+ }
+
+ .superbluebox{
+  /* border: 2px solid red; */
+  background-color: rgb(140,229,232);
+  border-radius: 22;
+  border-radius: 15px;
+  width:80%;
+  margin-left: 10%;
+  padding-bottom: 3% ;
+ }
+ .sub1{
+  display: flex;
+  justify-content:center;
+  
+ }
+ #blueboxh1{
+  font-size: 3em;
+   font-weight: 600;
+   color: rgb(44, 44, 44);
+   position: relative;
+   right: 80%;
+ }
+ .sub1p{
+    font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+   font-weight: 600;
+   color: rgb(44, 44, 44);
+   /* border: 2px solid red; */
+   position: relative;
+   left: 40%;
+   top: 20%;
+     color: rgb(51, 50, 44);
+
+ }
+ 
+ .supersub12{
+  display: flex;
+  justify-content:space-evenly;
+ }
+ .sub2{
+ /* border: 2px solid red; */
+ background-color:rgb(198,242,244);
+   border-radius: 10%;
+   width: 440px;
+   height: 280px;
+   /* font-family: "Open Sans", sans-serif; */
+ }
+  
+  
+ 
+.exclaim{
+  font-family: "BIZ UDPGothic", sans-serif;
+  font-weight:bolder;
+  font-style: normal;
+  font-size: 100px;
+  /* border: 2px solid red; */
+  position: relative;
+  bottom:30%;
+  left:5%;
+}
+.sub2p{
+ position: relative;
+ /* border: 2px solid pink; */
+ bottom: 85%;
+ left: 17%;
+font-family: "Open Sans", sans-serif;
+  color: rgb(44, 44, 44);
+  font-weight: 500;
+}
+ .sub3{
+/* border: 2px solid green; */
+background-color: rgb(198,242,244);
+   border-radius: 10%;
+   width: 440px;
+   height:280px;
+   font-family: "Open Sans", sans-serif;
+ }
+
+ .footer{
+  display: flex;
+  /* border: 2px solid green; */
+  justify-content: space-evenly; 
+ }
+ 
+
+ .footerleft{
+  /* border: 2px solid red; */
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  margin-right: 13%;
+  color: rgb(44, 44, 44);
+ }
+#leftpline{
+  position: relative;
+ bottom: 5%;
+ left: 8%;
+font-family: "Open Sans", sans-serif;
+  color: rgb(44, 44, 44);
+  font-weight: 500;
+  font-size: small;   
+  }
+ #leftp{
+ /* color: red; */
+ font-size: larger;
+  color: rgb(44, 44, 44);
+ }
+ #gp{
+  font-size: larger;
+ }
+ #protect{
+  font-weight: 700;
+ }
+
+
+.footerright{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+position: relative;
+top: 8px;
+right: 88px;
+/* border: 2px solid yellow; */
+display: flex;
+background-color: rgb(188,170,255);
+height: 10em;
+padding-top: 1.9%;
+padding-bottom: 1.1%;
+width: 28em;
+border-radius: 15px;
+
+ }
+#fn{
+  position: relative;
+  top:5%;
+  right: 5%;
+}
+#ln{
+  position: relative;
+  top:5%;
+  right: 18%;
+}
+#pn{
+  position: relative;
+  right: 5%;
+  top: 10%;
+}
+#em{
+  position: relative;
+  right: 18%;
+  top:10%;
+}
+.whitebox input{
+  border-radius: 15px;
+  border-style: none;
+  padding: 7%;
+  margin-left: 10%;
+}
+.button3 {
+   position: relative;
+   top: 20%;
+   left: 2%;
+   background-color: rgb(44, 44, 44);
+   color: white;
+    width: 20em;
+   font-size: larger; 
+    height: 2em; 
+   border-radius: 22px 22px;
+ }
+
+ .button3:hover {
+   background-color: white;
+   color: black;
+   cursor: pointer;
+   border-style: none;
+ }
+.social{
+  /* border: 2px solid red; */
+  font-size: 1.7em;
+  position: relative;
+  left: 12.5%;
+}
+span{
+    color: rgb(26, 25, 25);
+}
+a:hover{
+  transform: scale(1.2);
+}
+
+/* RESPONSIVE STYLES     */
+/*Please Note: these responsive styles are only for 
+some selective sizes only.
+/* 
+/* Phones ≤ 480px */
+
+/* Phones ≤ 480px */
+@media (max-width: 480px) {
+  .headdiv {
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    padding-left: 20px;
+    
+  }
+  #title h1{
+    padding-left: 2px;
+  }
+  .logoline {
+    height: auto;
+    padding: 10px;
+  }
+  .logoline h1{
+    position: relative;
+    right: 30px;
+    font-size: 15px;
+    top: 80px;
+    right: 4px;
+  }
+
+  .div1, .div2, .div3,
+  .orange, .sub2, .sub3 {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .button2 {
+    margin: 20px auto;
+    display: block;
+   position: relative;
+   left: 50px;
+  }
+
+  .fampic img {
+    width: 100%;
+    padding-left: 0;
+    height: 200px
+  }
+
+  .cancover {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  #cancoverh1 h1,
+  #blueboxh1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .cancoverp {
+    font-size: 1.2em;
+    padding: 0 10px;
+  }
+
+  .sub1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sub1p {
+    left: 0;
+    top: 0;
+    position: static;
+    padding: 0 10px;
+  }
+
+  .supersub12 {
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 0 10px;
+  }
+
+  .footerleft {
+    margin: 0;
+    text-align: center;
+  }
+
+  #leftpline {
+    left: 0;
+    bottom: 0;
+    padding: 0 10px;
+  }
+
+  .footerright {
+    width: 100%;
+    height: auto;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .whitebox input {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .button3 {
+    width: 90%;
+    left: 0;
+    top: 10px;
+    margin-top: 15px;
+  }
+
+  #fn, #ln, #pn, #em {
+    all: unset;
+    width: 100%;
+  }
+
+  .social {
+    left: 0;
+    font-size: 1.4em;
+    text-align: center;
+  }
+  .underline{
+    visibility: hidden;
+  }
+
+.why h1{
+ font-size: 3em;
+ width: 50%;
+ padding-left: 35px;
+}
+.icon{
+  position: relative;
+  bottom: 80px;
+}
+.sub2{
+  position: relative;
+  bottom: 50px;
+}
+.exclaim{
+  margin: 0;
+}
+
+#blueboxh1{
+  position: relative;
+  left: 1px;
+}
+.sub3{
+  position: relative;
+  bottom: 30px;
+}
+.sub2p{
+  width: 64%;
+  position: relative;
+  bottom: 40px;
+}
+#gp{
+  position: relative;
+  right: 20px;
+}
+#leftpline{
+width: 100%;
+font-size: 11px;
+position: relative;
+
+}
+i{
+  position: relative;
+  right: 10px;
+}
+#protect{
+  position: relative;
+  right: 10px;
+}
+
+.footerright{
+  width: 900px;
+
+ }
+ .whitebox{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: white;
+ padding: 20px;
+ margin: 10px;
+ border-radius: 15px;
+ }
+ .lastbtn{
+  width: 100%;
+  position: relative;
+  left: 20px;
+  bottom: 10px;
+ }
+
+ .whybox,
+  .orangecard,
+  .supersub12,
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .div1, .div2, .div3,
+  .orange, .sub2, .sub3 {
+    width: 80%;
+    height: auto;
+  }
+
+  .logoline {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .footerright {
+    width: 90%;
+    padding: 15px;
+    position: static;
+  }
+
+  .whitebox input {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .button3 {
+    width: 90%;
+    left: 0;
+  }
+
+  .fampic img {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .lifediv {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .lifediv p {
+    width: 90%;
+  }
+
+  .button2 {
+    margin-left: 0;
+    display: block;
+  }
+}
+/* Tablets ≤ 768px */
+ @media screen and (min-width: 768px) and (max-width: 1280px) {
+  .whybox,
+  .orangecard,
+  .supersub12,
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .div1, .div2, .div3,
+  .orange, .sub2, .sub3 {
+    width: 80%;
+    height: auto;
+  }
+
+  .logoline {
+    width: 100%;
+    font-size: 28px;
+  }
+
+  .footerright {
+    width: 90%;
+    padding: 15px;
+    position: static;
+  }
+
+  .whitebox input {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .button3 {
+    width: 90%;
+    left: 0;
+  }
+
+  .fampic img {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .lifediv {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .lifediv p {
+    width: 90%;
+  }
+
+  .button2 {
+    margin-left: 0;
+    display: block;
+  }
+  .headdiv{
+    height: 18em;
+  }
+  .logoline h1{
+    width: 20%;
+    font-size: 1em;
+    position: relative;
+    bottom: 30px;
+  }
+  .underline{
+    visibility: hidden;
+  }
+  .yellowborder{
+    width: 112.5%;
+  }
+  .div1{
+    position: relative;
+    left: 50px;
+  }
+  .div2{
+    position: relative;
+    left: 50px;
+  }
+  .div3{
+    position: relative;
+    left: 50px;
+  }
+  #info{
+    width: 50%;
+    position: relative;
+    bottom: 40px;
+    font-size: 1.1  em;
+  } 
+  #info2{
+    width: 50%;
+    position: relative;
+    bottom: 40px;
+    font-size: 1.1  em;
+    left: 40px;
+  }
+  .lifediv{
+    position: relative;
+    left: 5%;
+  }
+  .fampic{
+    position: relative;
+    left: 6%;
+  }
+  #cancoverh1{
+    font-size: 0.9em;
+    width: 40%;
+    position: relative;
+    left: 20px;
+  }
+  .cancoverp{
+    position: relative;
+    left: 7%;
+    top: 20px;
+    font-size:1.6em;
+  }
+  .orange{
+    position: relative;
+    left: 7%;
+  }
+  .orange p{
+    position: relative;
+    left: 20%;
+visibility: hidden;
+  }
+  .orange img{
+    position: relative;
+    left: 38%;
+  }
+  #blueboxh1{
+    position: relative;
+    left: 10%;
+  }
+  .superbluebox{
+    position: relative;
+    left: 7%;
+  }
+  .exclaim{
+    margin-bottom: 0;
+    position: relative;
+    left: 15%;
+  }
+  .sub2p{
+    position: relative;
+    bottom: 50px;
+    
+  }
+  .sub1p{
+ visibility: hidden;
+  }
+  .footerright{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 7%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .whitebox{
+    position: relative;
+    width: 50%;
+ }
+ #ln{
+  position: relative;
+  right: 5%;
+ }
+ #em{
+  position: relative;
+  right: 5%;
+ }
+ .lastbtn{
+  width: 100%;
+  position: relative;
+  left: 40px;
+  bottom: 0px;
+ }
+ .footerleft{
+  position: relative;
+ }
+ .social{
+  position: relative;
+  left: 50%;
+ }
+
+}
+
+
+
+ 
